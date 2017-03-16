@@ -3,21 +3,33 @@
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="C:\Users\sly\Desktop\前端之路\百度学院\小薇学院\任务2\小薇学院任务二.css" type="text/css">
-<title>任务一：零基础HTML编码</title>
+<title>任务二：零基础HTML编码</title>
 </head>
 
 <header>
-<img id="baidu" src="C:\Users\sly\Desktop\前端之路\百度学院\小薇学院\任务2\百度_logo.png" alt="百度一下">
+<img id="baidu" src="C:\Users\sly\Desktop\前端之路\百度学院\小薇学院\任务2\百度_logo.gif" alt="百度一下">
+<div class="navigation">
+<ul>
+	<li><a href="http://ife.baidu.com/course/detail/id/92">导航链接一</a></li>
+	<li><a href="http://ife.baidu.com/course/detail/id/92">导航链接二</a></li>
+	<li><a href="http://ife.baidu.com/course/detail/id/92">导航链接三</a></li>
+	<li><a href="http://ife.baidu.com/course/detail/id/92">导航链接四</a></li>
+</ul>
+</div>
 </header>
+
 <body>
 <h1>课程概述</h1>
 <p>作业提交截止时间：04-24</p>
 
+ <div class="first">
  <h2>重要说明</h2>
  <p>百度前端技术学院的课程任务是由百度前端工程师专为对前端不同掌握程度的同学设计。我们尽力保证课程内容的质量以及学习难度的合理性，但即使如此，真正决定课程效果的，还是你的每一次思考和实践。<br>
 
 课程多数题目的解决方案都不是唯一的，这和我们在实际工作中的情况也是一致的。因此，我们的要求不仅仅是实现设计稿的效果，更是要多去思考不同的解决方案，评估不同方案的优劣，然后使用在该场景下最优雅的方式去实现。那些最终没有被我们采纳的方案，同样也可以帮助我们学到很多知识。所以，我们列出的参考资料未必是实现需求所必须的。有的时候，实现题目的要求很简单，甚至参考资料里就有，但是背后的思考和亲手去实践却是任务最关键的一部分。在学习这些资料时，要多思考，多提问，多质疑。相信通过和小伙伴们的交流，能让你的学习事半功倍。</p>
+</div>
 
+ <div class="second">
  <h2>任务目的</h2>
  <ul>
 	<li>了解HTML的定义、概念、发展简史</li>
@@ -25,6 +37,7 @@
 	<li>能够基于设计稿来合理规划HTML文档结构</li>
 	<li>理解语义化，合理地使用HTML标签来构建页面</li>
  </ul>
+ </div>
 
  <h2>任务描述</h2>
  <ul>
@@ -118,6 +131,6 @@
 <input type="text" value="这是一个多行输入框，输入您得个人描述">
 <input type="button" value="确认提交"><br/>
 </form>
-版权所有
+版权所有@
 </body>
 </html>
