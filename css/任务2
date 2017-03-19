@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+     margin:0;
+     padding:0;
+}
+body{
+	 background-color:lightgrey;
+}
+header{
+	 background-color:rgb(51,51,51);
+     height:60px;
+};
+header a{
+	 color:white;
+}
+header a:hover{
+	 color:blue;
+ }
+header h1{
+	 color:white;
+     line-height:50px;
+     padding-left:30px;
+}
+nav{
+	 position:absolute;
+	 top:15px;
+	 right:30px;
+}
+header li{
+	 display:inline;
+}
+article{
+	 margin: 20px;
+	 padding: 20px;
+	 background: white;
+	 line-height: 1.8em;
+	 font-size: 16px;
+}
+table,tr,td{
+	 border:1px solid black;
+	 border-collapse: collapse;
+	 }
+table{
+	 width: 100%;
+     text-align: center;
+}
+tr{
+	height: 30px;
+}
+table .sum{
+	background-color: lightgrey;
+}
+aside div{
+	 margin:auto;
+	 psdding:0 0 0 200px;
+}
+footer{
+	text-align: center;
+	background: #333;
+	color: white; 
+	height: 70px;
+	line-height: 70px;
+}
+    
+ 
