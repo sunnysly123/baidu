@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>小薇学院任务五</title>
+<link rel="stylesheet" type="text/css" href="任务5.css">
+</head>
+<body>
+<header>
+<img alt="icon" src="大象.png">
+<nav>
+<ul>
+<li><a href="http://ife.baidu.com/course/detail/id/96">导航链接一</a></li>
+<li><a href="http://ife.baidu.com/course/detail/id/96">导航链接二</a></li>
+<li><a href="http://ife.baidu.com/course/detail/id/96">导航链接三</a></li>
+<li><a href="http://ife.baidu.com/course/detail/id/96">导航链接四</a></li>
+</ul>
+</nav>
+<div id="left">
+<article id="a1">
+<h1>文章一级标题</h1>
+<h2>文章二级标题</h2>
+<h3>文章作者 文章发表时间</h3>
+<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>
+这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://www.iconfont.cn/plus/home/index?spm=a313x.7781069.1998910419.2.WUW3sE">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，
+<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落。</p>
+<img src="鲨鱼.png" alt="鲨鱼">
+</article>
+
+<article id="a2">
+<h1>文章一级标题</h1>
+<h2>文章二级标题</h2>
+<h3>文章作者 文章发表时间</h3>
+<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>
+这是一个很长很长的段落，这是一个很长很长的段落，<a link=>这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，
+<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落。</p>
+图片
+<ul>
+<li>列表项目一</li>
+<li>列表项目二</li>
+<li>列表项目三</li>
+</ul>
+</article>
+
+<article id="a3">
+<h1>图片</h1>
+<img src="鲨鱼.png" alt="鲨鱼">
+<img src="鲨鱼.png" alt="鲨鱼">
+<img src="鲨鱼.png" alt="鲨鱼">
+<img src="鲨鱼.png" alt="鲨鱼">
+<img src="鲨鱼.png" alt="鲨鱼">
+<img src="鲨鱼.png" alt="鲨鱼">
+<img src="鲨鱼.png" alt="鲨鱼">
+<img src="鲨鱼.png" alt="鲨鱼">
+<img src="鲨鱼.png" alt="鲨鱼">
+<img src="鲨鱼.png" alt="鲨鱼">
+</article>
+
+<article id="a4">
+<h1>最后一篇文章一级标题</h1>
+<h2>文章二级标题</h2>
+<h3>文章作者 文章发表时间</h3>
+<ol>
+<li>排名1</li>
+<li>排名2</li>
+<li>排名3</li>
+</ol>
+<p>下面是一个表格，我这里给表格加了一个border=“1”好让你看出是一个表格，
+你们不用写html时候不需要加</p>
+<table id="chart">
+<tr>
+<th>表头</th>
+<th>表头</th>
+<th>表头</th>
+</tr>
+<tr>
+<td>表内容单元格</td>
+<td>表内容单元格</td>
+<td><a>操作</a></td>
+</tr>
+<tr>
+<td>表内容单元格</td>
+<td>表内容单元格</td>
+<td><a>操作</a></td>
+</tr>
+<tr>
+<td>表内容单元格</td>
+<td>表内容单元格</td>
+<td><a>操作</a></td>
+</tr>
+<tr>
+<td>表内容单元格</td>
+<td>表内容单元格</td>
+<td><a>操作</a></td>
+</tr>
+<tr>
+<td class="last">总计</td>
+<td class="last" colspan="2">1000</td>
+</tr>
+</table>
+</article>
+</div>
+<aside>
+<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+<form>
+<table id="aside">
+<tr>
+    <td>请输入邮箱地址</td>
+    <td><input type="text" name="mail address" value="这是一个文本输入框"></td>
+</tr>
+<tr>
+    <td colspan="2">邮箱地址请按要求格式输入</td>
+</tr>
+<tr>
+    <td>请输入密码</td>
+    <td><input type="password" name="password"></td>
+</tr>
+<tr>
+    <td>请重复输入密码</td>
+    <td><input type="password" name="password"></td>
+</tr>
+<tr>
+    <td colspan="2">密码请为6-16位英文数字</td>
+</tr>
+<tr>	
+	<td>性别</td>
+    <td>
+      <input type="radio" name="sex" value="male" checked>男
+      <input type="radio" name="sex" value="female" checked>女
+    </td>
+</tr>
+<tr>
+    <td>城市</td>
+    <td>
+     <select name="city">
+     <option value="Beijing">北京</option>
+     <option value="Beijing">上海</option>
+     <option value="Beijing">广州</option>
+	 </select>
+    </td>
+</tr>
+<tr>
+     <td>爱好</td>
+     <td>
+     <input type="radio" name="hobby" value="sport" checked>运动
+     <input type="radio" name="hobby" value="art" checked>艺术
+     <input type="radio" name="hobby" value="science" checked>科学
+     </td>
+</tr>
+<tr>
+     <td>个人描述</td>
+     <td><input type="text" name="summary" value="这是一个多行输入框，输入您的个人描述"></td>
+</tr>
+<input type="button">确认提交
+	</form>
+	</table>
+	</aside>
+<footer>
+<p>版权所有@</p>
+</footer>
+	</body>
+	</html>
