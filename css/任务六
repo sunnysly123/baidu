@@ -1,0 +1,292 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+#newspaper{
+	width:980px;
+	height:1386px;
+	position:absolute;
+	margin:0 auto;
+}
+header{
+	width:892px;
+	height:61px;
+	text-decoration: underline #938e8c;
+	margin:10px;
+}
+header p#header1{
+	width:110px;
+	height:61px;
+	background-color:#d45d5c;
+	font-size:12px；
+    color:#ffffff;
+}
+header p#header2{
+	float:right;
+	font-family:"黑体"；
+	font-color:#d45d5c;
+}
+hr#line1{
+	height:2px;
+	width:892px;
+	color:#938e8c;
+	margin-left:50px;
+}
+img#mainpicture{
+	width:641px;
+	height:301px;
+	margin-top:30px;
+	margin-left:60px;
+}
+#right1{
+	position:relative;
+	width:203px;
+	height: 301px;
+	left:750px;
+	bottom:300px;
+}
+#line2{
+	width:203px;
+	height:2px;
+	color:#cc8091;
+}
+#right1 h1{
+	font:24px/40px arial,sans-serif;
+	color:#000000;
+	text-decoration:underline;
+}
+#right1 subtitle{
+	font:italic 12px/10px arial,sans-serif;
+	color:#676767;
+}
+#big{
+	font:italic 116px arial,sans-serif;
+	color:#75b86b;
+}
+#small{
+	font:55px arial,sans-serif;
+	color:#cc8091;
+}
+#smal{
+	font:21px arial,sans-serif;
+	color:#cc8091;
+	position:relative;
+	left:80px;
+	bottom:50px;
+}
+#css{
+	font:12px arial,sans-serif;
+	color:lightgrey;
+	position:relative;
+	left:80px;
+	bottom:50px;
+}
+article.what{
+	width:250px;
+	position:relative;
+	bottom:270px;
+	left:60px;
+}
+h2.what{
+	font:bold 16px arial,san-serif;
+	color:#418c59;
+	text-decoration: underline;
+}
+p.what{
+	font:12px/16px times new roman,serif;
+	color:#767777;
+}
+article.when{
+	width:230px;
+	position:relative;
+	left:320px;
+	bottom:385px;
+}
+h2.when{
+	font:bold 16px arial,san-serif;
+	color:#d2994f;
+	text-decoration: underline;
+}
+p.when{
+	font:12px/16px times new roman,serif;
+	color:#231815;
+	opacity:0.7;
+}
+article.how{
+	width:130px;
+	position:relative;
+	left:580px;
+	bottom:510px;
+}
+h2.how{
+	font:bold 16px arial,sans-serif;
+	color:#cc7680;
+	text-decoration: underline;
+}
+p.how{
+	font:12px/16px times new roman,serif;
+	color:#231815;
+	opacity:0.7;
+}
+.how li{
+	font:12px/16px times new roman,serif;
+	opacity:0.7;
+	color:#231815;
+	margin-left:20px;
+}
+ul.how{
+	margin-top:10px;
+}
+.percent{
+	color:#cd4a48;
+}
+article.technologe{
+	position:relative;
+	bottom:450px;
+	left:50px;
+}
+h1.technologe{
+	font:bold 42px/16px arial;
+	color:#11456b;
+}
+span.technologe{
+	font:italic bold 72px arial;
+	color:#f5e327;
+}
+span.t1{
+	display:block;
+	font:bold 33px arial;
+	color:#11456b;
+	margin-top:15px;
+}
+hr.technologe{
+	width:415px;
+	height:2px;
+	color:#11456b;
+}
+p.technologe{
+	font:12px/16px times new roman;
+	color:#767777;
+}
+div.insert{
+	width:415px;
+}
+#front{
+	font:70px arial;
+	color:#f5e327;		
+}
+img.technologe{
+	width:180px;
+	height:320px;
+	float:right;	
+}
+img#laptop{
+	width:458px;
+	height:275px;
+	position:relative;
+	bottom:1080px;
+	left:530px;
+}
+#picture{
+	width:458px;
+	height:61px;
+	background-color: grey;
+	opacity:0.6;
+	position:absolute;
+	top:870px;
+	left:530px;
+}
+#line{
+	width:3px;
+	height:44px;
+	background-color:#72b16a;
+	position:absolute;
+	bottom:460px;
+	left:570px;
+}
+p#picture1{
+	font:26px arial;
+	color:#ffffff;
+	position:absolute;
+	bottom:460px;
+	left:580px;
+}
+p#picture2{
+	font:italic 12px/140% arial;
+    color:#72b16a;
+	position:absolute;
+	left:690px;
+	bottom:460px;
+}
+article.bottom{
+	width:459px;
+	height:318px;
+	background-color:rgb(234,235,205);
+	position:absolute;
+	left:530px;
+	bottom:100px;
+}
+.bottom li{
+	font:16px/20px times new roman;
+	color:#5a5b5b;
+}
+.bottom ul{
+	margin:20px;
+	margin-left:40px;
+}
+span.right1{
+	font:italic 12px/20px times new roman;
+	color:#5a5b5b;
+	text-align:right;
+}
+div.one{
+	width:260px;
+	height:160px;
+	background-color:#d45d5c;
+	position:relative;
+	float:left;
+	top:55px;
+}
+#o{
+	font:110px arial;
+	color:#ffffff;
+	margin-left:20px;
+	margin-top:20px;
+}
+#line2{
+	width:2px;
+	height:86px;
+	background-color:#ffffff;
+	position:relative;
+	left:85px;
+	bottom:105px;
+}
+h2.one{
+	font:italic 18px/24px arial;
+	color:#ffffff;
+	position:relative;
+	bottom:190px;
+	left:90px;
+}
+p.one{
+	font:12px/12px arial;
+	color:#ffffff;
+	position:relative;
+	bottom:180px;
+	left:90px;
+}
+#hello p{
+	font:italic 14px/16px arial;
+	color:#5a5b5b;
+	position:relative;
+	left:10px;
+	top:80px;
+}
+#q1,#q2{
+	font:72px arial;
+	position:absolute;
+	right:10px;
+	color:#d45d5c;
+}
