@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>小薇学院任务六</title>
+<link rel="stylesheet" href="任务6.css" type="text/css">
+</head>
+
+<body>
+<div id="newspaper">
+<header>
+	<p id="header1">ife.baidu.com</p>
+	<p id="header2">2016.03</p>
+	<hr id="line1"/>
+</header>
+<img id="mainpicture" src="laptop.jpg" alt="mainpicture">
+<div id="right1">
+    <hr id="line2"/>
+	<h1>ABOUT<br/>
+	    TECHNOLOGE</h1>
+	<subtitle>About technologe about technologe<br/>
+	          about thchnologe</subtitle>
+	<p id="big">700</p>
+	<p id="small">3.2</p>
+	<p id="smal">css</p>
+	<p id="css">csscsscsscsscss</p>
+</div>
+<article class="what">
+	<h2 class="what">What</h2>
+	<p class="what">
+		前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端
+	</p>
+</article>
+<article class="when">
+	<h2 class="when">When</h2>
+	<p class="when">
+		前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端
+	</p>
+</article>
+<article class="how">
+	<h2 class="how">How</h2>
+	<p class="how">
+		前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端
+	</p>
+	<ul class="how">
+		<li>What-------<span class="percent">40%</span></li>
+		<li>What-------<span class="percent">30%</span></li>
+		<li>What-------<span class="percent">30%</span></li>
+	</ul>
+</article>
+<article class="technologe">
+	<h1 class="technologe"><span class="technologe">THE</span> TECHNOLOGE<br/> OF FRONT<br/>
+	<span class="t1">前端技术领域</span></h1>
+	<hr class="technologe"/>
+	<div class="insert">
+	<p class="technologe"><span id="front">前</span>端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+	<img class="technologe" src="flower.jpg" alt="flower">
+	<p class="technologe">前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+	<p class="technologe">前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端</p>
+	
+	</div>
+	</article>
+<img id="laptop" src="laptop1.jpg" alt="laptop">
+<div id="picture">
+</div>
+<div id="line"></div>
+<p id="picture1">前端技术</p>
+<p id="picture2">前端技术前端技术</p>
+<article class="bottom">
+		<ul class="bottom">
+			<li>前端前端前端前端前端前端....................<span class="right1">前端</span></li>
+			<li>前端前端前端前端.................................<span class="right1">前端前</span></li>
+			<li>前端前端前端前前端前端前端前.............<span class="right1">前端</span></li>
+		</ul>
+		<div class="one">
+		<p id="o">0</p>
+		<div id="line2"></div>
+		<h2 class="one">ONE TWO<br/> THREE FOUR FIVE</h2>
+        <p class="one">hello world hello world<br/> hello world</p>
+	    </div>
+	    <div id="hello">
+	    	<p><span id="q1">"</span>hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world<span id="q2">"</span></p>
+	    </div>
+</article>
+<footer>
+	<p>ife.baidu.com</p>
+</footer>
+</div>
+</body>
+</html>
