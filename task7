@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>新世界</title>
 <link rel="stylesheet" href="任务7.css" type="text/css">
+<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
 <header>
@@ -115,28 +116,34 @@
 <aside class="info">
 	<h1 class="info">成为我们的志愿者</h1>
 	<hr class="info"/>
-	<p class="info">新世界的大家庭需要每一个爱生活的人的加入，如果你够年轻，有梦想，有激情，那就不要犹豫，快来加入我们，成为改变所有人生活的人</p>
-	<div class="agreement">
+	<p class="info">新世界的大家庭需要每一个爱生活的人的加入，如果你够年轻，有梦想，有激情</br>那就不要犹豫，快来加入我们，成为改变所有人生活的人</p>
+	<div class="container">
+	<div class="agreement col-xs-3">
 		<h2 class="agreement">新世界志愿者协议</h2>
 		<p class="agreement">加入新世界志愿者的人员必须遵守中华人民共和国的相关法律法规，并且本着平等自愿的原则......</p>
-		<img class="arrow" src="" alt="arrow">
 		<p class="arrow">more</p>
 		<h2 class="agreement">新世界志愿者权利</h2>
 		<p class="agreement">新世界志愿者享受新世界内部所有资源共享的权利，并且享受所在四新世界活动的优先参与资格</p>
-		<img class="arrow" src="" alt="arrow">
 		<p class="arrow">more</p>
 	    <h2 class="agreement">更多条款</h2>
-	    <img class="arrow" src="" alt="arrow">
+	    <p class="arrow">more</p>
 	 </div>
-	 <div class="application">
-	  <form class="application">
-	 	<input id="name" type="text" name="姓名：">
-	 	<input id="age" type="text" name="年龄：">
-	 	<input id="contact" type="number" name="联系方式：">
-	 	<input id="address" type="text" name="联系地址：">
-	 	<input id="dream" type="text" name="请简单描述你梦想的生活：">
-	  </form>
-	  <button class="application">提交申请</button>
+	 <table class="col-xs-8">
+	 	<tr>
+	 		<td>姓名:</td>
+	 		<td>年龄：</td>
+	 	</tr>
+	 	<tr>
+	 		<td>联系方式：</td>
+	 		<td>联系地址:</td>
+	 	</tr>
+	 	<tr>
+	 		<td colspan="2">请简单描述您梦想的生活：</td>
+	 	</tr>
+	 	<tr>
+	 		<td colspan="2"><button>提交申请</button></td>
+	 	</tr>
+	 </table>
 	 </div>
 </aside>
 <footer>
