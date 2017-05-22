@@ -128,8 +128,7 @@
 	<h1 class="info">成为我们的志愿者</h1>
 	<hr class="info"/>
 	<p class="info">新世界的大家庭需要每一个爱生活的人的加入，如果你够年轻，有梦想，有激情</br>那就不要犹豫，快来加入我们，成为改变所有人生活的人</p>
-	<div class="container">
-	<div class="agreement col-xs-3">
+	<div class="agreement">
 		<h2 class="agreement">新世界志愿者协议</h2>
 		<p class="agreement">加入新世界志愿者的人员必须遵守中华人民共和国的相关法律法规，并且本着平等自愿的原则......</p>
 		<p class="arrow">more</p>
@@ -139,22 +138,15 @@
 	    <h2 class="agreement">更多条款</h2>
 	    <p class="arrow">more</p>
 	 </div>
-	 <table class="col-xs-8">
-	 	<tr>
-	 		<td>姓名:</td>
-	 		<td>年龄：</td>
-	 	</tr>
-	 	<tr>
-	 		<td>联系方式：</td>
-	 		<td>联系地址:</td>
-	 	</tr>
-	 	<tr>
-	 		<td colspan="2">请简单描述您梦想的生活：</td>
-	 	</tr>
-	 	<tr>
-	 		<td colspan="2"><button>提交申请</button></td>
-	 	</tr>
-	 </table>
+	 <div class="submit">
+		 <p><input value="姓名:" type="text"/>
+	        <input value="年龄:" type="text"/></p>
+		 <p><input value="联系方式:" type="text"/>
+	        <input type="text" value="联系地址：" /></p>
+	     <div class="textarea">
+	     <p><textarea value="请简单描述您的梦想："></textarea></p>
+	     </div>
+	     <p class="submit"><input type="submit" value="提交申请"  /></p>
 	 </div>
 </aside>
 <footer>
@@ -172,6 +164,5 @@
 		<p>@2016新世界</p>
 	</div>
 </footer>
-</div>
 </body>
 	 </html>
