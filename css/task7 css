@@ -360,7 +360,9 @@ p.info{
 	color:#cdcdcd;
 	font-size:13px;
 }
-
+div.agreement{
+	width:31%;
+}
 h2.agreement{
 	font-size:15px;
 	color:grey;
@@ -373,24 +375,37 @@ p.arrow{
 	color:darkgray;
 	font-size:11px;
 }
-table tr td{
-	border:solid 20px white;
+/*---------form---------------*/
+div.submit{
+    float: left;
+	width:61%;
+	margin-left:8%;
 }
-table{
-	margin-left:20px;
-	font-size:13px;
-}
-td{
-	background-color:rgb(231,231,234);
-	text-align:left;
-	height:70px;
-	padding-left: 20px;
-}
-td button{
+div.submit p{
 	width:100%;
-    height:100%;
-	border:none;
-	background-color: rgb(231,231,234);
+}
+div.submit input{
+	display:inline-block;
+	background-color:rgb(232,232,235);
+	padding:10px 0;
+	margin-right:25px;
+	width:45%;
+	border:4px solid rgb(232,232,235);
+}
+.textarea{
+	width:94%;
+	height:180px;
+	background-color: rgb(232,232,235);
+	padding: 10px 20px;
+	background-color: rgb(232,232,235);
+	margin-bottom: 20px;
+	margin-left:7px;
+}
+.textarea textarea{
+	width:100%;
+	height:130px;
+	background-color: rgb(232,232,235);
+	border: 1px solid rgb(232,232,235);
 }
 /*-----------footer-------------*/
 footer{
