@@ -344,6 +344,8 @@ img#right{
 aside.info{
 	width:100%;
 	text-align: center;
+	line-height: 1.5em;
+	height:auto;
 }
 h1.info{
 	font:20px arial;
@@ -361,7 +363,11 @@ p.info{
 	font-size:13px;
 }
 div.agreement{
-	width:31%;
+	width:32%;
+	margin-bottom:40px;
+	margin-right:80px;
+	padding:0 4%;
+	float:left;
 }
 h2.agreement{
 	font-size:15px;
@@ -374,12 +380,13 @@ p.agreement{
 p.arrow{
 	color:darkgray;
 	font-size:11px;
+	float:right;
 }
 /*---------form---------------*/
 div.submit{
-    float: left;
-	width:61%;
-	margin-left:8%;
+    float:left;
+	width:60%;
+	padding:0;
 }
 div.submit p{
 	width:100%;
@@ -394,14 +401,13 @@ div.submit input{
 }
 .textarea{
 	width:94%;
-	height:180px;
+	text-align:left;
 	background-color: rgb(232,232,235);
 	padding: 10px 20px;
-	background-color: rgb(232,232,235);
 	margin-bottom: 20px;
 	margin-left:7px;
 }
-.textarea textarea{
+.textarea input{
 	width:100%;
 	height:130px;
 	background-color: rgb(232,232,235);
@@ -409,6 +415,7 @@ div.submit input{
 }
 /*-----------footer-------------*/
 footer{
+	float:left;
 	width:100%;
 	height:360px;
 	background-color: rgb(38,40,48);
