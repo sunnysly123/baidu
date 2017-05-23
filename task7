@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>新世界</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="任务7.css" type="text/css">
+<link rel="stylesheet" href="格式文件.css" type="text/css">
 <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
@@ -144,15 +144,15 @@
 		 <p><input value="联系方式:" type="text"/>
 	        <input type="text" value="联系地址：" /></p>
 	     <div class="textarea">
-	     <p><textarea value="请简单描述您的梦想："></textarea></p>
+	     <p><input value="请简单描述您的梦想：" type="text"></input></p>
 	     </div>
-	     <p class="submit"><input type="submit" value="提交申请"  /></p>
+	     <p class="submit"><input type="submit" value="提交申请"/></p>
 	 </div>
 </aside>
 <footer>
 	<h1>联系我们</h1>
 	<p>为了更好的获取我们最新的产品资讯，您可以留下您的电子邮件快速订阅我们的产品资讯<br/>也可以通过以下任何方式关注我们动态</p>
-	<form>
+	<form class="foot">
 		<input type="text" name="someone@email.com">
 		<button>提交</button>
 	</form>
